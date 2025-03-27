@@ -20,6 +20,5 @@ Thumbs.db
 *.swp
 
 # Ignorar tudo exceto os arquivos necessários dentro das pastas de tarefas
-**/*
 !**/*.c
 !**/README.md
