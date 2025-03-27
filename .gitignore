@@ -1,1 +1,25 @@
-Tarefa3
+# Arquivos compilados
+*.o
+*.out
+*.exe
+
+# Pastas de build temporárias
+/build/
+/bin/
+/obj/
+
+# Configurações do VS Code
+.vscode/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de backup do editor
+*~
+*.swp
+
+# Ignorar tudo exceto os arquivos necessários dentro das pastas de tarefas
+**/*
+!**/*.c
+!**/README.md
