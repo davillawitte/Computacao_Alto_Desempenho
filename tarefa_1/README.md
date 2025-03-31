@@ -18,7 +18,7 @@ A memória RAM e os caches armazenam matrizes em ordem de linha (row-major order
 𝑁
 M×N é armazenada como uma sequência de linhas contínuas na memória.
 
-##🔵 Acesso por Linhas (Row-Major Order)
+## 🔵 Acesso por Linhas (Row-Major Order)
 
 ```
 for (int i = 0; i < size; i++) {
@@ -38,7 +38,7 @@ Poucos cache misses, pois o processador já preenche os blocos de cache com valo
 
 ## 🔴 Acesso por Colunas (Column-Major Order)
 
-```
+´´´´
 for (int j = 0; j < size; j++) {
 for (int i = 0; i < size; i++) {
 result[i] += matrix[i][j] \* vector[j];
